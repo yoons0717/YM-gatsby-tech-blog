@@ -1,21 +1,12 @@
 import React, { FunctionComponent, useMemo } from 'react'
 import queryString, { ParsedQuery } from 'query-string'
 import { IGatsbyImageData } from 'gatsby-plugin-image'
-import styled from '@emotion/styled'
-import GlobalStyle from 'components/Common/GlobalStyle'
-import Footer from 'components/Common/Footer'
 import Introduction from 'components/Main/Introduction'
 import CategoryList, { CategoryListProps } from 'components/Main/CategoryList'
 import PostList from 'components/Main/PostList'
 import { PostListItemType } from 'types/PostItem.types'
 import { graphql } from 'gatsby'
 import Template from 'components/Common/Template'
-
-const Container = styled.div`
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-`
 
 type IndexPageProps = {
   location: {
