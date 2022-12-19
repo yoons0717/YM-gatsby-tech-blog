@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://yoons.github.io/sitemap-index.xml
-Host: https://yoons.github.io
+Sitemap: https://yoons0717.github.io/sitemap-index.xml
+Host: https://yoons0717.github.io
